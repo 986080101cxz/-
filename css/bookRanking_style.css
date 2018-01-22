@@ -1,0 +1,207 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-image: url(../img/bookranking_bg2.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+.box_shadow{
+	filter:progid:DXImageTransform.Microsoft.Shadow(color=#a5a4a4,direction=120,strength=4);/*ie*/  
+	-moz-box-shadow: 1px 1px 5px #a5a4a4;/*firefox*/  
+	-webkit-box-shadow: 1px 1px 5px #a5a4a4;/*safari或chrome*/  
+	box-shadow:1px 1px 5px #a5a4a4;/*opera或ie9*/  
+}
+#nav_bar{
+	width: 100%;
+	height: 55px;
+	background-color: black;
+	padding-left:65px;
+	padding-right:65px;
+	overflow: hidden;
+	position: fixed;
+	top: 0px;
+	z-index: 1;
+}
+#logo{
+	float: right;
+	margin: 5px 5px;
+	border-radius:7px 7px 7px 7px;
+	
+}
+#logo:hover{
+	background-color: rgba(255,255,255,0.08);
+}
+.search-group{
+	float: right;
+	padding: 12.5px 5px;
+	margin-right: 35px;
+}
+#searchText{
+	float: right;
+	height: 29px;
+	border: 1px solid #A0A7AB;
+	border-radius:5px 5px 5px 5px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	padding-left: 27px;
+	margin: 0 5px;
+	background: url(../img/放大镜.png);
+	background-repeat:no-repeat;
+	background-origin: padding-box;
+	background-color: white;
+}
+
+#search{
+	width:65px;
+	height: 29px;
+	float: right;
+	border: 0px solid #1cabe7;
+	border-radius:5px 5px 5px 5px;
+	background-color: #1cabe7;
+	color: #ecf7fc;
+	font-weight:700;
+	font-size: 15px;
+}
+#search:hover{
+	background-color: #46c2f6;
+}
+.navBtn a{
+	float: left;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	color: white;
+}
+.navBtn{
+	float: left;
+	padding: 17px 15px;
+	list-style: none;
+}
+.navBtn a{
+	text-decoration: none;
+	color: white;
+	
+}
+#bookList{
+	background-color: #2E2E2E;
+}
+#navBtn > li:hover{
+	background-color:#2e2e2e;
+}
+.bookRanking_Content{
+	margin-top: 265px;
+}
+
+h1 ,h2{
+	color: white;
+}
+h1{
+	
+	font-size: 60px;
+	text-align: center;
+	
+}
+h1 > span{
+	width: 800px;
+	background-color: rgba(0,0,0,0.5);
+	display: inline-block;
+}
+h2{
+	font-size: 40px;
+	text-align: center;
+}
+/*Amazon*/
+.bookRanking2{
+	margin-left: 50px;
+	margin-top: 170px;
+	background-color: rgba(132,93,68,0.5);
+	float: left;
+}
+.bookRanking2_1{
+	margin: 50px 50px;
+	width: 500px;
+	height: 220px;	
+	float: left;
+}
+.amazon{
+	color: white;
+}
+.amazonTopSummary_1{
+	width: 250px;
+	float: right;
+	margin-right: 50px;
+	margin-top: 20px;
+	text-align: center;
+	border-bottom: solid white 2px;
+}
+.bli1r{
+	background-color: #ff6600;
+	border-radius:7px 7px 7px 7px;
+}
+.amazonTopSummary_2{
+	margin-top: 20px;
+	width: 250px;
+	float: right;
+	margin-right: 50px;
+	text-align: justify;
+	
+}
+.bookRanking2left{
+	margin-left: 50px;
+}
+
+.bookRanking2_2{
+	margin-left: 50px;
+	margin-top: 50px;
+	background-color: rgba(132,93,68,0.5);
+	float: left;
+}
+
+/*当当*/
+.bookRanking3{
+	margin-left: 50px;
+	margin-top: 170px;
+	background-color: rgba(130,79,80,0.5);
+	float: left;
+}
+.bookRanking3_2{
+	margin-left: 50px;
+	margin-top: 50px;
+	background-color: rgba(130,79,80,0.5);
+	float: left;
+}
+.bookRanking3_1{
+	margin: 50px 50px;
+	width: 500px;
+	height: 220px;	
+	float: left;
+}
+.bli1r2{
+	background-color: #fc1a1b;
+	border-radius:7px 7px 7px 7px;
+}
+/*豆瓣*/
+.bookRanking4{
+	margin-left: 50px;
+	margin-top: 170px;
+	background-color: rgba(116,137,121,0.5);
+	float: left;
+}
+.bookRanking4_2{
+	margin-left: 50px;
+	margin-top: 50px;
+	background-color: rgba(116,137,121,0.5);
+	float: left;
+}
+.bookRanking4_1{
+	margin: 50px 50px;
+	width: 500px;
+	height: 220px;	
+	float: left;
+}
+.bli1r3{
+	background-color: #3ea659;
+	border-radius:7px 7px 7px 7px;
+}

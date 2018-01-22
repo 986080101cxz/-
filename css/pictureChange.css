@@ -1,0 +1,46 @@
+*{
+				margin: 0;
+				padding: 0;
+			}
+			#outer{
+				width: 1200px;
+				height: 180px;
+				margin-top: 60px;
+				margin-left:75px;
+				/*margin-right: auto;*/
+				background-color: #000;
+				border-radius:5px 5px 5px 5px;
+				/*开启相对定位*/
+				position: relative;
+				overflow: hidden;
+			}
+			#imglist{
+				list-style: none;
+				
+				/*开启绝对定位*/
+				position: absolute;
+				left: -0px;
+			}
+			#imglist > li{
+				float: left;
+				
+				
+			}
+			#pictureChangeNavDiv{
+				position: absolute;
+				right: 10px;
+				bottom: 15px;
+			}
+			#pictureChangeNavDiv > a{
+				float: left;
+				width: 12px;
+				height: 12px;
+				background-color: black;
+				opacity: 0.5;
+				filter: alpha(opcity=50);
+				margin: 0 5px;
+				
+			}
+			#pictureChangeNavDiv > a:hover{
+				background-color: #808080;
+			}
